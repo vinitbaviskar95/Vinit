@@ -94,6 +94,7 @@ empRouter.delete("/:No",function(request,reponse){
     
     let query = `delete from Students where No = ${no}`;
     console.log(query);
+	console.log("Vinit");
     
     connection.query(query,function(error,result){
     
@@ -116,5 +117,6 @@ empRouter.delete("/:No",function(request,reponse){
     //     response.contentType("application/json");
     //     response.send(empSearched);
     // });
+
 
 module.exports = empRouter;
