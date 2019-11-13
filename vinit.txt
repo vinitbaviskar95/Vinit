@@ -1,0 +1,20 @@
+Which version of node u have used = 8.0
+default web browser port 4200
+
+modules is a collection of functionality
+Angular is collection of modules (
+
+Angular application must have atleast one module mandatory
+
+app.module.ts
+
+Every module is a class
+and this class is decorated @NgModule
+
+Every module has a components
+and every component have default component.
+default component is act as container.
+
+
+What is cros origin error..? why it occurs..? what is solution for it..?
+
